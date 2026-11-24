@@ -1,0 +1,7 @@
+project: savantenvs/Mozzi
+target: dsp
+
+cmds:
+  - cmd: /mayhem/mayhem/bin/fuzz_dsp
+    libfuzzer: true
+    timeout: 5

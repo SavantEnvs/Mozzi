@@ -1,0 +1,7 @@
+project: savantenvs/Mozzi
+target: delay
+
+cmds:
+  - cmd: /mayhem/mayhem/bin/fuzz_delay
+    libfuzzer: true
+    timeout: 5

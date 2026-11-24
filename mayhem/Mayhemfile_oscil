@@ -1,0 +1,7 @@
+project: savantenvs/Mozzi
+target: oscil
+
+cmds:
+  - cmd: /mayhem/mayhem/bin/fuzz_oscil
+    libfuzzer: true
+    timeout: 5

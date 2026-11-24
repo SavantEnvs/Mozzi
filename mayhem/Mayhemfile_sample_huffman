@@ -1,0 +1,7 @@
+project: savantenvs/Mozzi
+target: sample_huffman
+
+cmds:
+  - cmd: /mayhem/mayhem/bin/fuzz_sample_huffman
+    libfuzzer: true
+    timeout: 5

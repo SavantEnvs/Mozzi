@@ -1,0 +1,7 @@
+project: savantenvs/Mozzi
+target: midi_fixmath
+
+cmds:
+  - cmd: /mayhem/mayhem/bin/fuzz_midi_fixmath
+    libfuzzer: true
+    timeout: 5

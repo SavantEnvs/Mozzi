@@ -1,0 +1,7 @@
+project: savantenvs/Mozzi
+target: sample_linear
+
+cmds:
+  - cmd: /mayhem/mayhem/bin/fuzz_sample_linear
+    libfuzzer: true
+    timeout: 5

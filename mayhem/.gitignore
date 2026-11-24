@@ -1,0 +1,3 @@
+# build.sh output (fuzzers, standalone reproducers, test runner); recreated by every build
+bin/
+obj/
